@@ -1,4 +1,4 @@
-package com.rama.java8.streams;
+package com.rama.java8.pojo;
 
 public class Person {
 	private int pid;

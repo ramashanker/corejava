@@ -1,4 +1,4 @@
-package com.rama.corejava.foreach.java8;
+package com.rama.java8.foreach;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -9,8 +9,8 @@ import java.util.logging.Logger;
  * https://dzone.com/articles/devoxx-2012-java-8-lambda-and
  * https://www.journaldev.com/2389/java-8-features-with-examples
  */
-public class ForEachJava8 {
-	static Logger logger = Logger.getLogger(ForEachJava8.class.getName());
+public class CollectionsForEach {
+	static Logger logger = Logger.getLogger(CollectionsForEach.class.getName());
 	public static void main(String[] args) {
 		/*
 		 * Creating sample collection and populate value

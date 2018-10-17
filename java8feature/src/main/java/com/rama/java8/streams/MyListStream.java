@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
+import com.rama.java8.pojo.Person;
+
 public class MyListStream {
 	public static void main(String[] args) {
 		List<Person> list = new ArrayList<>();
@@ -14,8 +16,7 @@ public class MyListStream {
 		Consumer<Person> style = (Person p) -> System.out.println("id:" + p.getPid() + ", Name:" + p.getName());
 		System.out.println("---Before delete---");
 		list.forEach(style);
-		int pid = 2;
-		Predicate<Person> personPredicate = p -> p.getPid() == pid;
+		Predicate<Person> personPredicate = p -> p.getPid() == 2;
 		list.removeIf(personPredicate);
 		System.out.println("---After delete---");
 		list.forEach(style);
