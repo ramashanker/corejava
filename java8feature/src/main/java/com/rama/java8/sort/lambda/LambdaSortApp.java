@@ -31,9 +31,18 @@ public class LambdaSortApp {
 		persons.sort((p1,p2)->p1.getName().compareTo(p2.getName()));
 		System.out.println("After sort ny name:");
 		printDetail(persons);
+		removeDetail(persons,4);
+		System.out.println("deletinf before id 4");
+		printDetail(persons);
 	}
 	
 	private static void printDetail(List<Person> persons) {
 		persons.stream().forEach(p-> System.out.println("id:"+p.getPid()+" Name:"+p.getName()));
 	}
+	
+	private static void removeDetail(List<Person> persons,int id) {
+		persons.removeIf(p->(p.getPid()-id)<0);
+	}
+	
+	
 }
