@@ -19,5 +19,6 @@ public class CallableLambda {
 		for (int i = 0; i < 3; i++) {
 			System.out.println(futureTask[i].get());
 		}
+		service.shutdown();
 	}
 }
