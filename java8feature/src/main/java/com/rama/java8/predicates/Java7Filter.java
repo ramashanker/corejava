@@ -3,6 +3,8 @@ package com.rama.java8.predicates;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.rama.java8.pojo.Employee;
+
 public class Java7Filter {
 	public static void main(String[] args) {
 		List<Employee> employees = new ArrayList<Employee>();

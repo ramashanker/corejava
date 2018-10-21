@@ -1,4 +1,4 @@
-package com.rama.java8.predicates;
+package com.rama.java8.pojo;
 
 public class Employee {
 	String empid;

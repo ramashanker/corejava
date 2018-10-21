@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
+import com.rama.java8.pojo.Employee;
 import com.rama.java8.pojo.Person;
 
 public class Java8Predicates {
