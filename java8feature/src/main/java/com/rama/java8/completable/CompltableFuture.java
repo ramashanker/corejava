@@ -86,7 +86,7 @@ public class CompltableFuture {
 		 */
 
 		CompletableFuture<String> completableFuture = CompletableFuture.supplyAsync(() -> now);
-		CompletableFuture<Void> future = completableFuture.thenAccept(s -> LOGGER.info("Computation returned: " + s));
+		CompletableFuture<Void> future = completableFuture.thenRun(() -> System.out.println("Computation returned: "));
 		return future;
 
 	}
