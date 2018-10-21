@@ -6,6 +6,8 @@ public class Application {
 	private final static Logger log = Logger.getLogger(Application.class.getName());
 
 	public static void main(String[] args) {
+		
+		
 		/*
 		 * Implementation of interface to get value
 		 */

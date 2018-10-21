@@ -35,7 +35,6 @@ public class LambdaSortApp {
 		System.out.println("deletinf before id 4");
 		printDetail(persons);
 	}
-	
 	private static void printDetail(List<Person> persons) {
 		persons.stream().forEach(p-> System.out.println("id:"+p.getPid()+" Name:"+p.getName()));
 	}

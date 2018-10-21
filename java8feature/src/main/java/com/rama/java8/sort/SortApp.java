@@ -9,6 +9,7 @@ import java.util.List;
 import com.rama.java8.pojo.Person;
 
 public class SortApp {
+
 	public static void main(String[] args) {
 			List<Person> persons=new ArrayList<>();
 			persons.add(new Person(3,"c3"));
