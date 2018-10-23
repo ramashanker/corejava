@@ -8,6 +8,7 @@ import java.util.concurrent.FutureTask;
 public class CallableLambda {
 	public static void main(String[] args) throws Exception {
 		ExecutorService service = Executors.newFixedThreadPool(2);
+		@SuppressWarnings("unchecked")
 		FutureTask<String>[] futureTask = new FutureTask[5];
 		String result = "result data";
 		Callable<String> callable = () -> {

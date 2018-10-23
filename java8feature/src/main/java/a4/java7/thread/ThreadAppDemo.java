@@ -7,6 +7,7 @@ public class ThreadAppDemo {
 		MyRunnable myrunnable = new MyRunnable();
 		Thread thread = new Thread(myrunnable);
 		thread.start();
+		@SuppressWarnings("unchecked")
 		FutureTask<String>[] futureTask = new FutureTask[5];
 
 		for (int i = 0; i < 5; i++) {

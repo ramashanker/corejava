@@ -10,7 +10,7 @@ public class FuctionString {
 		System.out.println(result);
 		String result1=transform("shanker", StringUtil::makeExiting);
 		System.out.println(result1);
-		String result2=transform("Rama", FuctionString::FuctionString);
+		String result2=transform("Rama", FuctionString::fuctionString);
 		System.out.println(result2);
 	}
 
@@ -21,7 +21,7 @@ public class FuctionString {
 	 * here always the function should be take string as input and produce string as output
 	 * other wise it will not accept as a Function<String, String>
 	 */
-	public static String FuctionString(String str) {
+	public static String fuctionString(String str) {
 		return "myfunction:"+str;
 	}
 }
