@@ -10,7 +10,7 @@ public class CallableLambda {
 		ExecutorService service = Executors.newFixedThreadPool(2);
 		@SuppressWarnings("unchecked")
 		FutureTask<String>[] futureTask = new FutureTask[5];
-		String result = "result data";
+		final String result = "result data";
 		Callable<String> callable = () -> {
 			return result.concat(":Mycallable");
 		};
