@@ -1,8 +1,9 @@
 package a7.java8.singlton;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.logging.Logger;
 
-import org.junit.Test;
 
 public class SingltonTestScenario {
 	

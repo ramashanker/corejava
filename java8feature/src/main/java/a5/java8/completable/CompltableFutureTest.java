@@ -1,13 +1,12 @@
 package a5.java8.completable;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
-
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class CompltableFutureTest {
 
